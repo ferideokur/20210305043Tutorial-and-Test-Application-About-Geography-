@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Geography"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:rotationX="0"
+        android:text="Geography Quiz"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Tutorial" />
+
+    <Button
+        android:id="@+id/btnCapitalsQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="World Capitals Quiz" />
+
+    <Button
+        android:id="@+id/btnTurkeyQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turkey Geography Quiz" />
+
+    <TextView
+        android:id="@+id/txtStudentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="20210305043 - Feride Okur"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

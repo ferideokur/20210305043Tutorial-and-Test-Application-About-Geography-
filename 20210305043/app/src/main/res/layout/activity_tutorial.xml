@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgNations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/country_and_nationality"
+            android:contentDescription="Countries and nationalities table" />
+
+        <TextView
+            android:id="@+id/txtCapitalsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="World Capitals Tutorial" />
+
+        <TextView
+            android:id="@+id/txtCapitalsBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="In the capitals quiz you see the name of a country and four possible city names. Your task is to choose the city that is the official capital. Read the whole question carefully and think about what you already know before you select an answer." />
+
+        <TextView
+            android:id="@+id/txtCapitalsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="Important country–capital pairs used in this app: &#10;• Turkey – Ankara &#10;• France – Paris &#10;• Germany – Berlin &#10;• Italy – Rome &#10;• Japan – Tokyo &#10;• Spain – Madrid &#10;• United Kingdom – London &#10;• Russia – Moscow &#10;• Canada – Ottawa &#10;• China – Beijing" />
+
+        <TextView
+            android:id="@+id/txtCapitalsTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="Tips for capitals: &#10;• Many big countries have one political capital even if another city is larger or more famous. &#10;• Try to connect the capital with symbols: Paris – Eiffel Tower, Tokyo – technology and neon lights, Rome – ancient history, London – red buses and Big Ben. &#10;• When you miss a question, look again at the correct option and repeat the pair: country and capital." />
+
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img11"
+            android:contentDescription="img11" />
+
+        <TextView
+            android:id="@+id/txtTurkeyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Turkey Geography Tutorial" />
+
+        <TextView
+            android:id="@+id/txtTurkeyBody1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="Turkey is a bridge between Europe and Asia. A small part of the land is in southeastern Europe and the larger part is in western Asia. So we can say that Turkey is located on both Europe and Asia." />
+
+        <TextView
+            android:id="@+id/txtTurkeyBody2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="The capital city of Turkey is Ankara. Istanbul is the biggest and most famous city, but Ankara is the political center where the parliament and the president are located. Istanbul is the most populated city of the country." />
+
+        <TextView
+            android:id="@+id/txtTurkeyBody3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="Turkey is divided into seven main geographical regions: Marmara, Aegean, Mediterranean, Central Anatolia, Black Sea, Eastern Anatolia and Southeastern Anatolia. Each region has its own typical climate, landscape and economic activities." />
+
+        <TextView
+            android:id="@+id/txtTurkeyBody4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="For the seas around Turkey, remember: &#10;• The Black Sea is to the north of Turkey. &#10;• The Mediterranean Sea is to the south. &#10;• The Aegean Sea is to the west. &#10;The Bosphorus Strait connects the Black Sea with the Sea of Marmara. The Dardanelles Strait connects the Sea of Marmara with the Aegean Sea." />
+
+        <TextView
+            android:id="@+id/txtTurkeyBody5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="The highest mountain in Turkey is Mount Ararat (Ağrı Mountain). It is located in the Eastern Anatolia region. One of the western neighbours of Turkey is Greece, which is on the other side of the Aegean Sea." />
+
+        <TextView
+            android:id="@+id/txtTurkeyBody6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:text="The official currency of Turkey is the Turkish lira and the official language of the country is Turkish. These facts are also used in the quiz questions, so try to remember them as clear short sentences." />
+
+        <TextView
+            android:id="@+id/txtTutorialEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:text="When you feel ready, go back to the main menu and start one of the quizzes. First read this tutorial carefully from top to bottom. All the questions in the tests are based on the information explained here." />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to main menu"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>
